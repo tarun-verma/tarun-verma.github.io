@@ -1,0 +1,18 @@
+a {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	color: black;
+	font-family: Fira Sans;
+	font-size: 30px;
+}
+
+a:hover {
+	text-align: center;
+	color: hotpink;
+}
+
+body, html {
+	background-image: url("static/nightcafe.jpg");
+	background-size: cover;
+}
