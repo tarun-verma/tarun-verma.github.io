@@ -12,6 +12,6 @@ a:hover {
 }
 
 body, html {
-	background-image: url("static/the-lovers2.png");
+	background-image: url("../static/the-lovers2.png");
 	background-size: cover;
 }
