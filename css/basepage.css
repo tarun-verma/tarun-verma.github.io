@@ -1,0 +1,17 @@
+a {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	color: black;
+	font-family: serif;
+	font-size: 30px;
+}
+
+a:hover {
+	color: teal;
+}
+
+body, html {
+	background-image: url("static/the-lovers2.png");
+	background-size: cover;
+}
