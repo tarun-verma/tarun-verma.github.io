@@ -1,9 +1,16 @@
+@font-face {
+	font-family: 'crimsonroman';
+	src: url('../fonts/WOFF/crimsonroman/crimson-roman-webfont.woff2') format('woff2'),
+	url('../fonts/WOFF/crimsonroman/crimson-roman-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 a {
 	display: block;
 	text-align: right;
 	text-decoration: none;
 	color: black;
-	font-family: serif;
 	font-size: 30px;
 }
 
