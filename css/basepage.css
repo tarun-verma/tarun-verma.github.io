@@ -8,17 +8,30 @@
 
 a {
 	display: block;
-	text-align: right;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 30px;
+	text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 a:hover {
-	color: teal;
+	color: #6495ED;
 }
 
 body, html {
-	background-image: url("../static/the-lovers2.png");
+	background-image: url("../static/nocturne.jpg");
 	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
 }
