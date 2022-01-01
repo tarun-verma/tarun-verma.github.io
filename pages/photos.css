@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'crimsonroman';
+	src: url('../fonts/WOFF/crimsonroman/crimson-roman-webfont.woff2') format('woff2'),
+	url('../fonts/WOFF/crimsonroman/crimson-roman-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+	text-shadow:-1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+}
+
+a:hover {
+	color: rgba(255, 255, 255, 0.562);
+}
+
+body, html {
+	background-image: url("../static/bridge.jpeg");
+	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    vertical-align: middle;
+}
