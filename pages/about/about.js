@@ -3,7 +3,6 @@ var counter = 0;
 var img = [
     "myself/myself1.jpeg",
     "myself/myself2.jpeg",
-    "myself/myself3.jpeg",
     "myself/myself4.jpeg",
     "myself/myself5.jpeg",
     "myself/myself6.jpeg",
