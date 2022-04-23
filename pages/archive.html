@@ -18,10 +18,20 @@
 
 
 <style type="text/css">
+
+    pre {
+        white-space: pre-wrap;       /* css-3 */
+        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+        width:50%;
+    }
+
     div.transbox {
-        margin: 100px;
+        margin: 50px;
         background-color: whitesmoke;
-        border: 5px solid black;
+        border: 2.5px solid black;
         opacity: 0.7;
         padding: 25px 25px 25px 25px;
     }
@@ -30,19 +40,22 @@
         float:right;
         margin: 110px;
         margin-top: 40px;
+        height: auto;
+        width: auto;
     }
 </style>
 
 <body>
-    <img src="../static/popshop.jpg" class="floatRight">
+    <div>
+        <img src="../static/popshop.jpg" class="floatRight">
+    </div>
+    <pre>
     <div class="transbox" style="float: left">
-        I have an ongoing archive where I collect cool shit I find on the internet.<br><br>
-        This could be anything - artworks, photos, tunes, articles, essays - you get the point.<br>
-        I realised I can't bookmark everything, and some of this stuff might actually be helpful <br>
-        to someone else, or just plain cool.<br><br>
-        The said archive resides on a <a href="https://telegram.org/" style="color: black">Telegram</a> channel <a href="https://t.me/cdarchive/" style="color:black">here</a>.<br><br>
-        You don't necessarily have to install Telegram - just click on the "Preview channel" <br>
-        link below the big blue "VIEW IN TELEGRAM" button.<br><br>
-        <a href="../" style="color:black">go back home</a>
+I have an ongoing archive where I collect cool shit I find on the internet. <br>
+This could be anything - artworks, photos, tunes, articles, essays.
+I realised I can't bookmark everything, and some of this stuff might actually be helpful to someone else, or just plain cool. <br>
+The said archive resides on a <a href="https://telegram.org/" style="color: black">Telegram</a> channel <a href="https://t.me/cdarchive/" style="color:black">here</a>. <br>
+You don't necessarily have to install Telegram - just click on the "Preview channel" link below the big blue "VIEW IN TELEGRAM" button. <br>
+<a href="../" style="color:black">go back home</a>
     </div>
 </body>
